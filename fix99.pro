@@ -335,7 +335,7 @@ nl.
 
 output(Hasil):-
 upper_lower(VariableRahasia, Hasil),nl,nl, %section facts
-write("Hasil identifikasi yang kami dapatkan yaitu ", VariableRahasia),nl.
+write("Hasil identifikasi yang kami dapatkan adalah ", VariableRahasia),nl.
 kelompokku:- %list
 	kelompok([A,B,C]),
 	write(A),
